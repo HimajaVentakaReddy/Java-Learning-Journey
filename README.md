@@ -2,12 +2,12 @@
 
 Welcome to my Java Learning Journey!
 
-This repository documents my daily progress in learning Java. It contains theory notes, practical programs, examples, and coding exercises covering Java concepts from fundamentals to advanced topics.
+This repository documents my daily progress in learning Java. It contains structured theory notes, practical programs, examples, and coding exercises covering Java concepts from fundamentals to advanced topics.
 
 ## 🎯 Objectives
 
 - Build a strong foundation in Java
-- Understand every concept through practical examples
+- Understand concepts through practical examples
 - Practise Java programming regularly
 - Maintain structured theory notes
 - Track my daily learning progress
@@ -20,14 +20,51 @@ This repository documents my daily progress in learning Java. It contains theory
 - Dollar symbol (`$`) in variable names
 - Underscore (`_`) in variable names
 - Using `$` and `_` together
-- Underscores in integer literals
-- Underscores in floating-point literals
-- Valid and invalid placements of underscores
+- Underscores in numeric literals
+- Valid and invalid underscore placements
 - Hexadecimal number literals
 
-📖 [View theory and examples](Special%20symbols%20that%20are%20permitted%20in%20the%20variable%20names/README.md)
-
+📖 [View theory and examples](Special%20symbols%20that%20are%20permitted%20in%20the%20variable%20names/README.md)  
 💻 [View Java program](Special%20symbols%20that%20are%20permitted%20in%20the%20variable%20names/VariableNameSymbols.java)
+
+### 2. Type Casting
+
+- Implicit or widening type casting
+- Explicit or narrowing type casting
+- Type promotion
+- Possible data loss during explicit conversion
+
+📖 [View theory and examples](Type%20Casting/README.md)  
+💻 [View Java program](Type%20Casting/TypeCastingDemo.java)
+
+### 3. Numeric Literal Suffixes
+
+- `F` and `f` suffixes for `float`
+- `D` and `d` suffixes for `double`
+- `L` and `l` suffixes for `long`
+- Default types of numeric literals
+
+📖 [View theory and examples](Numeric%20Literal%20Suffixes/README.md)  
+💻 [View Java program](Numeric%20Literal%20Suffixes/NumericSuffixDemo.java)
+
+### 4. Scientific Notation
+
+- Positive and negative exponents
+- Using lowercase `e` and uppercase `E`
+- Representing large and small decimal values
+
+📖 [View theory and examples](Scientific%20Notation/README.md)  
+💻 [View Java program](Scientific%20Notation/ScientificNotationDemo.java)
+
+### 5. Default Values of Primitive Data Types
+
+- Default values of instance variables
+- Default values of static variables
+- Default values of array elements
+- Difference between fields and local variables
+
+📖 [View theory and examples](Default%20Values%20of%20Primitive%20Data%20Types/README.md)  
+💻 [View Java program](Default%20Values%20of%20Primitive%20Data%20Types/DefaultValuesDemo.java)
 
 ## 🛠️ Technologies Used
 
@@ -39,16 +76,16 @@ This repository documents my daily progress in learning Java. It contains theory
 
 ## ▶️ Compile and Run
 
-Compile the program:
+Compile a program:
 
 ```powershell
-javac -d out "Special symbols that are permitted in the variable names\VariableNameSymbols.java"
+javac -d out "Topic Folder\ProgramName.java"
 ```
 
-Run the program:
+Run the compiled program:
 
 ```powershell
-java -cp out VariableNameSymbols
+java -cp out ProgramName
 ```
 
 ## 📂 Repository Structure
@@ -58,6 +95,18 @@ Java-Learning-Journey/
 ├── Special symbols that are permitted in the variable names/
 │   ├── README.md
 │   └── VariableNameSymbols.java
+├── Type Casting/
+│   ├── README.md
+│   └── TypeCastingDemo.java
+├── Numeric Literal Suffixes/
+│   ├── README.md
+│   └── NumericSuffixDemo.java
+├── Scientific Notation/
+│   ├── README.md
+│   └── ScientificNotationDemo.java
+├── Default Values of Primitive Data Types/
+│   ├── README.md
+│   └── DefaultValuesDemo.java
 ├── .gitignore
 └── README.md
 ```
