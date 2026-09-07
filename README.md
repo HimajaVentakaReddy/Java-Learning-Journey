@@ -66,6 +66,17 @@ This repository documents my daily progress in learning Java. It contains struct
 📖 [View theory and examples](Default%20Values%20of%20Primitive%20Data%20Types/README.md)  
 💻 [View Java program](Default%20Values%20of%20Primitive%20Data%20Types/DefaultValuesDemo.java)
 
+### 6. Wrapper Classes
+
+- Relationship between primitive types and wrapper classes
+- Converting primitive values into wrapper objects
+- Autoboxing and unboxing
+- Recommended use of `valueOf()`
+- Range of `float` and `double`
+
+📖 [View theory and examples](Wrapper%20Classes/README.md)  
+💻 [View wrapper class program](Wrapper%20Classes/WrapperClassDemo.java)  
+💻 [View floating-point range program](Wrapper%20Classes/FloatingPointRangeDemo.java)
 ## 🛠️ Technologies Used
 
 - Java 17
